@@ -11,3 +11,17 @@ Links
 This repository is maintained by
 * @Sigma88
 * @GregroxMun
+
+Usage:
+* Reference
+* Modification
+* Education
+
+Description:
+* BiomeMaps: export of the maps that the planets use to determine where biomes are. Note that according to the kittopia export configs, Tylo's biomes are broken.
+* Configs: Used to reference the numbers and values used by stock planets for their PQSMods, orbits, scaledspace, ocean, and atmosphere.
+* HeightMaps: (Partially Implemented) Heightmaps used by the game to build planets. These are exports from the game, with offset removed and export height set to the deformity of the mod. These only apply to planets that have heightmaps.
+* HeightExports: (Not Implemented) Height profile of planets accounting for all PQSMods. Anything under 0 meters will be black, and the top-most part of the map may not be white.
+* ColorAdditionMaps: (Not Implemented) PQS color maps used to color terrain non-procedurally. This only applies to planets that have color maps.
+* MainTextures: Scaledspace textures of celestial bodies.
+* NormalMaps: Shading on celestial bodies conforming to the terrain.
